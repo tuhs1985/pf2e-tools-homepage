@@ -1,11 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .app-container {
   min-height: 100vh;
   background: #222;
   color: #eee;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Align to top */
+  /* Removed justify-content: center; */
 }
+
 .inner-container {
   background: #333;
   padding: 2em 3em;
@@ -13,8 +18,9 @@
   box-shadow: 0 2px 12px #0008;
   width: 100%;
   max-width: 420px;
-  text-align: center;
+  text-align: left; /* changed from center */
 }
+
 h1 {
   font-size: 2em;
   margin-bottom: 1.5em;
