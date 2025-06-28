@@ -1,4 +1,4 @@
-# PF2e Tools Homepage
+# PF2e Tools Hub Homepage
 
 This is the homepage for the PF2e Tools Hub suite, providing quick access to related tools:
 
