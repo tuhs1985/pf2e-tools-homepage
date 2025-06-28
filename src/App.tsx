@@ -21,7 +21,7 @@ export default function App() {
             </a>
           </div>
           <footer>
-            <a href="https://github.com/yourusername/pf2e-tools-homepage">
+            <a href="https://github.com/tuhs1985/pf2e-tools-homepage">
               View on GitHub / Report Issues
             </a>
           </footer>
