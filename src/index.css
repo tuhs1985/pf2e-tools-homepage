@@ -25,6 +25,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -64,5 +66,17 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+/* ---------- Light / Dark theme variables ---------- */
+:root {
+  --bg: #f4f4f4;   /* light background  */
+  --text: #1a1a1a; /* light text colour */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a; /* dark background   */
+    --text: #f4f4f4; /* dark text colour*/
   }
 }
