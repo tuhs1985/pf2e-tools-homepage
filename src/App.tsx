@@ -5,7 +5,7 @@ export default function App() {
     <div className="app-container">
       <div className="inner-container">
         <div className="main-card">
-          <h1>PF2e Tools Hub</h1>
+          <h1>PF2e Suite Portal</h1>
           <div className="tool-buttons">
             <a
               className="hub-btn"
